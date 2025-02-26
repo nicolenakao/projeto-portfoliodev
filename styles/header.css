@@ -1,0 +1,12 @@
+.container {
+  padding-top: 120px;
+  padding-bottom: 183px;
+  padding-inline: 163px;
+
+}
+
+body {
+  background: url(/assets/Background_Intro.png);
+  background-image: cover;
+}
+
