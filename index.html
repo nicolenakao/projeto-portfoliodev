@@ -20,23 +20,26 @@
 </head>
 
 <body>
-  <header id="introducao">
-      <section class="apresentacao flex flex-column-center">
-        <div class="avatar">
+  <header id="container0">
+      <section id="introducao" class="apresentacao flex flex-column-center"> 
+
+        <div class="icon-avatar">
           <img src="assets/icons/avatar.png" alt="avatar">
         </div>
 
-        <div class="code">
+        <div class="icon-code">
           <img src="assets/icons/Code.svg" alt="ícone de codigo">
         </div>
     
-        <h2> Hello World! Meu nome é <span class="destaque"> Martina Santos</span> e sou </h2> <h1>Desenvolvedora Fullstack</h1>
-        <p> Transformo necessidades em aplicações reais, evolventes e funcionais. Desenvolvo sistemas através da minha paixão pela tecnologia, contribuindo com soluções inovadoras e eficazes para desafios complexos.</p>
+          <h2> Hello World! Meu nome é <span class="destaque"> Martina Santos</span> e sou </h2> <h1>Desenvolvedora Fullstack</h1>
+          <p> Transformo necessidades em aplicações reais, evolventes e funcionais. Desenvolvo sistemas através da minha paixão pela tecnologia, contribuindo com soluções inovadoras e eficazes para desafios complexos.</p>
 
       </section>
 
       
-      <section class="links flex2 flex-column-center est"> <!--essa propriedade do utility vai refletir nas divs de baixo?-->
+      <section id="intro-links" class="links est"> <!--se eu tenho uma class dentro de id, no css eu vou estilizar qual?-->
+        <!--essa propriedade do utility vai refletir nas divs de baixo?--> 
+        <!--tentei com flex e com grid, nao mudou nd-->
 
         <div class="caixa">
           <img src="/assets/icons/GitHub.svg" alt="ícone GitHub">
@@ -45,12 +48,12 @@
           </span>
         </div>
 
-        <div class="caixa">
+        <div class="caixa"> <!--inseri o utility first de red e nao funcionou-->
           <img src="/assets/icons/HTML.svg" alt="ícone html">
-          <span>
             HTML
           </p>
         </span>
+        </div>
 
         <div class="caixa">
           <img src="/assets/icons/CSS.svg" alt="ícone CSS">
@@ -62,7 +65,7 @@
         <div class="caixa">
           <img src="/assets/icons/JavaScript.svg" alt="ícone JavaScript">
           <span>
-            JavaScript
+            JavaS
           </span>
         </div>
 
@@ -79,20 +82,101 @@
             Node
           </span>
         </div>
-      
 
+      </section>
 
-      </section>     
+          <div class="seta flex flex-column-center"> 
+          <!--nao funciona pq? estilizei .seta no Header-->
+          <img src="/assets/icons/CaretDoubleDown.svg" alt="seta">
+          </div>    
   </header>
 
 
-  <main id="projetos">
-    <section class="destaque"> 
-     
-    PARTE 2
+  
+  <main>
+    <section id="container1">
+      <div class="projetos flex flex-column-center"> 
+        <p> Meu trabalho </p>
+        <h3> Veja os projetos em destaque </h3> 
+      </div>
 
+
+     <!-- porque se eu colocar o grid grid-cols-3 aqui na div, ele n funciona?-->
+      <container class="grid grid-cols-3 gap-8">
+
+        <div class="card">
+          <img src="/assets/Thumbnail_Project-01.png" alt="Thumbnail_Project-01">
+            <span>
+              <h1> Travelgram </h1>
+              <h2> Rede social onde as pessoas mostram os registros de suas viagens pelo mundo </h2>
+            </span>
+        </div>
+      
+
+
+       <!--p div class="grid grid-cols-3 gap-8"> porque adicionar a class em todas as divs e nao apenas lá em cima onde comeca a secao?-->
+        <div class="card">
+          <img src="/assets/Thumbnail_Project-02.png" alt="Thumbnail_Project-01">
+            <span> 
+              <h1> Tech News </h1>
+              <h2> Homepage de um portal de notícias sobre a área de tecnologia </h2>
+            </span>
+        </div>
+
+
+
+        <div class="card">
+          <img src="/assets/Thumbnail_Project-03.png" alt="Thumbnail_Project-03">
+            <span> 
+              <h1> Página de receita </h1>
+              <h2> Página com o passo a passo de uma receita para cupcakes </h2>
+            </span>
+        </div>
+      
+
+
+        <div class="card">
+          <img src="/assets/Thumbnail_Project-04.png" alt="Thumbnail_Project-04">
+            <span> 
+              <h1> Zingen </h1>
+              <h2> Landing Page completa e responsiva de um aplicativo de Karaokê </h2>
+          </span>
+        </div>
+      
+
+
+
+        <div class="card">
+          <img src="/assets/Thumbnail_Project-05.png" alt="Thumbnail_Project-05">
+            <span> 
+              <h1> Refund </h1>
+              <h2> Um sistema para pedido e acompanhamento de reembolso  </h2>
+            </span>
+        </div>
+     
+
+
+        <div class="card">
+          <img src="/assets/Thumbnail_Project-06.png" alt="Thumbnail_Project-06">
+          <span>
+            <h1> Página de turismo </h1>
+              <h2> Página com as principais informações para quem quer viajar para Busan </h2>
+          </span>
+        </div>
+
+      </container>
     </section>
 
+      
+
+      
+    
+
+  
   </main>
+
+
+
+
 </body>
 </html>

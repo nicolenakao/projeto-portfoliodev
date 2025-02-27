@@ -1,21 +1,39 @@
 .flex {
-  display: flex;
-}
+  display: flex;}
 
 
 .flex-column-center {
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-
-}
-
+  align-items: center;}
 
 
 .est {
   font: var(--text-md);
-  color: var(--gray-500);
+  color: var(--gray-500);}
+
+.grid {
+  display: grid;
+}
+
+.grid-cols-3 {
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  align-items: center; /*quando eu inspeciono no f12, nao funciona*/
+  padding-inline: 163px;}
+
+
+.gap-8 {
+  row-gap: 8px;
+  column-gap: 8px;
+}
+
+.grid-links {
+  grid-template-columns: 6;
+  grid-template-rows: 1;
 }
 
 
-
+.red {
+  color: var(--red);
+}

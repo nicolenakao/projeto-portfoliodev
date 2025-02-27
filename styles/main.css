@@ -1,0 +1,63 @@
+#container1 {
+  background-color: var(--gray-200);
+  background-size: cover;
+  background-position: center;
+  height: 917px;
+  padding-top: 72px;
+  padding-inline: 120px;
+  padding-bottom: 144px;
+}
+
+.projetos {
+  margin-top: 72px;
+    p {
+      font: var(--subtitle);
+      color: var(--red);}
+
+    h3 {
+      font: var(--title-md);
+      color: var(--gray-600);}
+}
+
+
+
+.card {
+  display: grid;
+  background-color: var(--gray-300);
+  position: relative;
+  overflow: hidden;
+  width: 330px;
+  height: 275px;
+  border-radius: 12px;
+  margin-top: 56px;
+  
+
+    img {
+      padding-top: 12px;
+      padding-inline: 12px;
+      width: 306px;
+      height: 156px;
+      border-radius: 8px;
+      position: absolute;
+      align-items: center; /*classifiquei como display grid e inseri o alignitems na esperana que fosse alinhar a foto dentro do card*/
+    } 
+
+
+    span {
+      margin-top: 188px;
+      position: absolute;
+      padding-inline: 12px;}
+
+    h1 {
+      font: var(--title-sm);
+      color: var(--gray-600);}
+    
+
+    h2 {
+      margin-top: 8px;
+      font: var(--text-sm);
+      color: var(--gray-500);}
+
+    }
+
+  

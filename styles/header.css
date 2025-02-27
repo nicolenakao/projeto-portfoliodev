@@ -1,44 +1,39 @@
-#container {
-  padding-top: 120px;
-  padding-bottom: 183px;
-  padding-inline: 163px;
-
+#container0 {
+  background: url(/assets/Background_Intro.png);
+  background-size: cover;
+  background-position: center;
+  height:750px;
 }
 
 
 #introducao {
-  background: url(/assets/Background_Intro.png);
-  background-size: cover;
-  background-position: center;
-  height: 750px;
   padding-top: 120px;
+  margin-bottom: 183px;
+  margin-inline: 163px;
 
-
-    .avatar {
+    .icon-avatar {
+      height: 112px;
+      margin-bottom: 56px;
       border: 2px solid var(--red);
       border-color: var(--red);
       border-radius: 50%;
-      padding: 5px; /*nao entendi*/
+      padding: 5px; 
       position: relative;
-      object-fit: cover;
-      
-    }
+      object-fit: cover;}
 
     
-    .code {
-      position: absolute;
-      display: inline-block;
-      
-    }
+    .icon-code {
+      position: absolute; 
+      /*top: como saber exatamente o tanto de px (e pq px) para subir e encaixar na imagem? */
+      }
 
     
 
     h2 {
       font: var(--subtitle);
       color: var(--gray-500);
-      text-align: center;
-    
-    }
+      text-align: center;}
+
 
 
     h1 {
@@ -46,31 +41,45 @@
       color: var(--gray-600);
       margin-top: 8px;
       margin-bottom: 20px;
-      text-align: center;
+      text-align: center;}
 
-    }
+
 
     .destaque {
-      color: var(--red);
-    }
+      color: var(--red);}
+
+
 
     p {
       font: var(--text-sm);
       color: var(--gray-400);
       max-width: 680px;
-      text-align: center;
-    }
+      text-align: center;}
   
 }
 
 
-.caixa {
-  background-color: var(--gray-300);
-  border-radius: 999px;
-  width: 114px;
-  height: 40px;
-  padding-inline: /*pq nao usar esse q o texto sai da caixa?*/
+#intro-links {
+  display: grid;
+  width: 754px;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 1;
+  justify-content: center; /*nao funciona*/
+    
+    .caixa {
+      background-color: var(--gray-300);
+      border-radius: 999px;
+      width: 114px;
+      height: 40px;
+      align-items: center;
+       }
 
-  
-  }
+    .seta {
+      margin-top: 99px;
+      display: flex;
+      padding-bottom: 55.5px;
+      justify-content: center;
+    }
+
+
 }
