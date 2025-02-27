@@ -5,7 +5,7 @@
   height: 917px;
   padding-top: 72px;
   padding-inline: 120px;
-  padding-bottom: 144px;
+  padding-bottom: 144px; /*nao aparenta ter 144*/
 }
 
 .projetos {
@@ -30,6 +30,7 @@
   height: 275px;
   border-radius: 12px;
   margin-top: 56px;
+  
   
 
     img {
@@ -60,4 +61,18 @@
 
     }
 
-  
+
+#ajuda {
+  background-color: var(--gray-100);
+  height: 480px;
+  padding-top: 88px;
+  padding-inline: 120px;
+  padding-bottom: 120px;
+
+
+
+  .projetos {
+    margin-bottom: 56px;
+  }
+
+}
