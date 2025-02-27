@@ -1,5 +1,5 @@
 #container0 {
-  background: url(./assets/Background_Intro.png);
+  background: url(../assets/Background_Intro.png);
   background-size: cover;
   background-position: center;
   height:750px;
@@ -12,21 +12,30 @@
   margin-inline: 163px;
 
     .icon-avatar {
+      width: 112px;
       height: 112px;
       margin-bottom: 56px;
       border: 2px solid var(--red);
       border-color: var(--red);
       border-radius: 50%;
-      padding: 5px; 
       position: relative;
-      object-fit: cover;}
+      padding: 5px;
+
+      .profilepic {
+        object-fit: cover;
+        width: 100%;
+      
+      }
+     }
 
     
     .icon-code {
-      position: absolute; 
-      /*top: como saber exatamente o tanto de px (e pq px) para subir e encaixar na imagem? */
+      position: absolute;
+      bottom: 0;
+      right: 0px; /*a partir dessa posicao ele se distancia*/
       }
 
+      /*especificar bottom ou right/left quando usar absolute */
     
 
     h2 {
@@ -60,18 +69,23 @@
 
 
 #intro-links {
-  display: grid;
-  width: 754px;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: 1;
-  justify-content: center; /*nao funciona*/
+  display: flex;
+  width: 100%;
+  justify-content: center;
+
+ /* margin: auto;
+  border: solid red;*/
+  /*outra opcao*/
     
     .caixa {
+      display: flex;
       background-color: var(--gray-300);
       border-radius: 999px;
       width: 114px;
       height: 40px;
       align-items: center;
+      justify-content: center;
+
        }
 
     .seta {
