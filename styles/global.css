@@ -20,15 +20,16 @@
 
 
   --font-family1:"Archivo", sans-serif;
-  --h1: 800 56px/120% var(--font-family1);
-  --h2: 800 24px/120% var(--font-family1);
-  --h3: 800 16px/120% var(--font-family1);
+  --title-lg: 800 56px/120% var(--font-family1);
+  --title-md: 800 24px/120% var(--font-family1);
+  --title-sm: 800 16px/120% var(--font-family1);
 
   --font-family2:"Inconsolata", serif;
   --subtitle: 100 20px/120% var(--font-family2);
 
   --font-family3:"Maven Pro", sans-serif;
-  --text-md: 400 16px/140% var(--font-family);
-  --text-sm: 400 14px/140% var(--font-family);
+  --text-md: 400 16px/140% var(--font-family3);
+  --text-sm: 400 14px/140% var(--font-family3);
 }
+
 
