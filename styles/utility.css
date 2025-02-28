@@ -13,8 +13,7 @@
   color: var(--gray-500);}
 
 .grid {
-  display: grid;
-}
+  display: grid;}
 
 .grid-cols-3 {
   grid-template-columns: repeat(3, 1fr);
@@ -26,15 +25,23 @@
 
 .gap-8 {
   row-gap: 8px;
-  column-gap: 8px;
-}
+  column-gap: 8px;}
 
 .grid-links {
   grid-template-columns: 6;
-  grid-template-rows: 1;
-}
+  grid-template-rows: 1;}
 
 
-.red {
-  color: var(--red);
-}
+.rouge {
+  color: var(--red);}
+
+.blue {
+  color: var(--blue);}
+
+.jeune {
+  color: var(--yellow);}
+
+
+.vert {
+  color: var(--green);}
+
