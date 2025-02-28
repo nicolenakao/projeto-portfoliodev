@@ -25,21 +25,17 @@
     color: var(--gray-500);
   }
 
-  /* no caso para dar espaco exato de 8px entre subtitulo e tiulo, eu nao posso usar padding pq nao eh um elemnto certo? */
-
 }
 
 
 #network {
   padding-top: 48px;
-  display: flex;
+  display: flex; /*smp add display pra falar sobre o filho*/
   flex-direction: column;
   align-items: center;
   gap: 16px;
 
-  img :nth-child(2){
-    align-items: flex-end;
-  }
+
 
     span{
       font: var(--text-md);
@@ -48,24 +44,41 @@
       
     }
 
-    /*eu tenho q aplicar o flex no filho?*/
+    
 
     .fundo {
+      display: flex; /*qro alinhar os elementos filhos*/
+      gap: 15px;
       width: 400px;
       height: 68px; /*pq nao usar o box sizing?*/
       background-color: var(--gray-300);
       border-radius: 8px;
-      padding-block: 20px; /*nao moveu o texto mais pra cima pra ficar na direcao do logo*/ 
       padding: 20px;
+      
       align-items: center;
 
-      .fundo:hover {
+      &:hover {
       border: 1px solid var(--blue);
-      }
+      } /*sempre colocar o & para substituir o elemnto pai*/
 
+      /*img:nth-child(2){
+        align-self: flex-end;
+        border: 1px solid red;
+      }  seria span*/    
     }
 
-    /*qual raciocionio pra saber se o meu padding seria inserido no fundo, ou no span?*/
+
+    .setalink {
+      margin-left: auto; /*calcula automatico qt de margem deve ter*/
+    
+
+    }
+  }
+    
+
+    
+
+ 
 
 
       

@@ -2,13 +2,11 @@
   background: url(../assets/Background_Intro.png);
   background-size: cover;
   background-position: center;
-  height:750px;
 }
 
 
 #introducao {
   padding-top: 120px;
-  margin-bottom: 183px;
   margin-inline: 163px;
 
     .icon-avatar {
@@ -69,7 +67,7 @@
 
 
 #intro-links {
-  margin-top: 70px;
+  padding-top: 70px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -93,11 +91,10 @@
 
   .seta {
         display: flex;
-        flex-direction: row;
         justify-content: center;
         padding-top: 88px;
-        margin-bottom: 52px; /*pq?*/
-        display: flex;
+        padding-bottom: 52px; /*pq?*/
+        
         
   }
       

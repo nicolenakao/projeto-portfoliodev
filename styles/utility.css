@@ -17,18 +17,21 @@
 
 .grid-cols-3 {
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 1fr;
+  /* grid-template-rows: 1fr;  */
   justify-content: center;
   align-items: center; /*quando eu inspeciono no f12, nao funciona*/
   padding-inline: 163px;}
 
 
-.gap-8 {
+/* .gap-8 {
   row-gap: 8px;
-  column-gap: 8px;}
+  column-gap: 8px;} */
 
+
+/* 
 .grid-links {
   grid-template-columns: 6;
-  grid-template-rows: 1;}
+  grid-template-rows: 1;} */
+
 
 

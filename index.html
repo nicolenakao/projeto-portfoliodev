@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,700&family=Asap:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,700&family=Asap:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
 
   <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
 
@@ -21,239 +24,242 @@
 
 <body>
   <header id="container0">
-      <section id="introducao" class="apresentacao flex flex-column-center"> 
+    <section id="introducao" class="apresentacao flex flex-column-center">
 
-        <div class="icon-avatar">
-          <img class="profilepic" src="./assets/icons/Image11.png" alt="avatar">
-      
-        
-          <img class="icon-code" src="./assets/icons/Code.svg" alt="ícone de codigo">
-        
-        </div>
-        
-          <h2> Hello World! Meu nome é <span class="destaque"> Martina Santos</span> e sou </h2> <h1>Desenvolvedora Fullstack</h1>
-          <p> Transformo necessidades em aplicações reais, evolventes e funcionais. Desenvolvo sistemas através da minha paixão pela tecnologia, contribuindo com soluções inovadoras e eficazes para desafios complexos.</p>
+      <div class="icon-avatar">
+        <img class="profilepic" src="./assets/icons/Image11.png" alt="avatar">
 
-      </section>
 
-      
-      <section id="intro-links" class="links est"> <!--se eu tenho uma class dentro de id, no css eu vou estilizar qual?-->
-        <!--essa propriedade do utility vai refletir nas divs de baixo?--> 
-        <!--tentei com flex e com grid, nao mudou nd-->
+        <img class="icon-code" src="./assets/icons/Code.svg" alt="ícone de codigo">
 
-        <div class="caixa">
-          <img src="./assets/icons/GitHub.svg" alt="ícone GitHub">
-          <span>
-            GitHub
-          </span>
-        </div>
+      </div>
 
-        <div class="caixa"> <!--inseri o utility first de red e nao funcionou-->
-          <img src="./assets/icons/HTML.svg" alt="ícone html">
-            HTML
-          </p>
+      <h2> Hello World! Meu nome é <span class="destaque"> Martina Santos</span> e sou </h2>
+      <h1>Desenvolvedora Fullstack</h1>
+      <p> Transformo necessidades em aplicações reais, evolventes e funcionais. Desenvolvo sistemas através da minha
+        paixão pela tecnologia, contribuindo com soluções inovadoras e eficazes para desafios complexos.</p>
+
+    </section>
+
+
+    <section id="intro-links" class="links est">
+      <!--se eu tenho uma class dentro de id, no css eu vou estilizar qual?-->
+      <!--essa propriedade do utility vai refletir nas divs de baixo?-->
+      <!--tentei com flex e com grid, nao mudou nd-->
+
+      <div class="caixa">
+        <img src="./assets/icons/GitHub.svg" alt="ícone GitHub">
+        <span>
+          GitHub
         </span>
-        </div>
+      </div>
 
-        <div class="caixa">
-          
-          <img src="./assets/icons/CSS.svg" alt="ícone CSS">
-          <span>
-            CSS
-          </span>
-        </div>
+      <div class="caixa"> <!--inseri o utility first de red e nao funcionou-->
+        <img src="./assets/icons/HTML.svg" alt="ícone html">
+        HTML
+        </p>
+        </span>
+      </div>
 
-        <div class="caixa">
-          <img src="./assets/icons/JavaScript.svg" alt="ícone JavaScript">
-          <span>
-            JavaS
-          </span>
-        </div>
+      <div class="caixa">
 
-        <div class="caixa">
-          <img src="./assets/icons/React.svg" alt="ícone React">
-          <span>
-            React
-          </span>
-        </div>
+        <img src="./assets/icons/CSS.svg" alt="ícone CSS">
+        <span>
+          CSS
+        </span>
+      </div>
 
-        <div class="caixa">
-          <img src="./assets/icons/Node.js.svg" alt="ícone Node">
-          <span>
-            Node
-          </span>
-        </div>
+      <div class="caixa">
+        <img src="./assets/icons/JavaScript.svg" alt="ícone JavaScript">
+        <span>
+          JavaS
+        </span>
+      </div>
 
-        </section>
+      <div class="caixa">
+        <img src="./assets/icons/React.svg" alt="ícone React">
+        <span>
+          React
+        </span>
+      </div>
 
-     
-        <div class="seta"> 
-          <!--nao funciona pq? estilizei .seta no Header-->
-          <img src="./assets/icons/CaretDoubleDown.svg" alt="seta">
-        </div>    
+      <div class="caixa">
+        <img src="./assets/icons/Node.js.svg" alt="ícone Node">
+        <span>
+          Node
+        </span>
+      </div>
 
-      
+    </section>
+
+
+    <div class="seta">
+      <!--nao funciona pq? estilizei .seta no Header-->
+      <img src="./assets/icons/CaretDoubleDown.svg" alt="seta">
+    </div>
+
+
   </header>
 
 
-  
+
   <main>
     <section id="container1">
-      <div class="projetos flex flex-column-center"> 
-        <p> Meu trabalho </p>
-        <h3> Veja os projetos em destaque </h3> 
+      <div class="projetos flex flex-column-center">
+        <h2> Meu trabalho </h2>
+        <h3> Veja os projetos em destaque </h3>
       </div>
-    
 
-   
 
-    <section id="grade-de-trabalho" class="grid grid-cols-3 gap-8">
+
+
+      <div id="grade-de-trabalho" class="grid grid-cols-3">
 
         <div class="card">
           <img src="./assets/Thumbnail_Project-01.png" alt="Thumbnail_Project-01">
-            <span>
-              <h1> Travelgram </h1>
-              <h2> Rede social onde as pessoas mostram os registros de suas viagens pelo mundo </h2>
-            </span>
+          <div>
+            <h3> Travelgram </h3>
+            <p> Rede social onde as pessoas mostram os registros de suas viagens pelo mundo </p>
+          </div>
         </div>
-      
 
 
-       <!--p div class="grid grid-cols-3 gap-8"> porque adicionar a class em todas as divs e nao apenas lá em cima onde comeca a secao?-->
+
+        <!--p div class="grid grid-cols-3 gap-8"> porque adicionar a class em todas as divs e nao apenas lá em cima onde comeca a secao?-->
         <div class="card">
           <img src="./assets/Thumbnail_Project-02.png" alt="Thumbnail_Project-01">
-            <span> 
-              <h1> Tech News </h1>
-              <h2> Homepage de um portal de notícias sobre a área de tecnologia </h2>
-            </span>
+          <div>
+            <h3> Tech News </h3>
+            <p> Homepage de um portal de notícias sobre a área de tecnologia </p>
+          </div>
         </div>
 
 
 
         <div class="card">
           <img src="./assets/Thumbnail_Project-03.png" alt="Thumbnail_Project-03">
-            <span> 
-              <h1> Página de receita </h1>
-              <h2> Página com o passo a passo de uma receita para cupcakes </h2>
-            </span>
+          <div>
+            <h3> Página de receita </h3>
+            <p> Página com o passo a passo de uma receita para cupcakes </p>
+          </div>
         </div>
-      
+
 
 
         <div class="card">
           <img src="./assets/Thumbnail_Project-04.png" alt="Thumbnail_Project-04">
-            <span> 
-              <h1> Zingen </h1>
-              <h2> Landing Page completa e responsiva de um aplicativo de Karaokê </h2>
-          </span>
+          <div>
+            <h3> Zingen </h3>
+            <p> Landing Page completa e responsiva de um aplicativo de Karaokê </p>
+          </div>
         </div>
-      
+
 
 
 
         <div class="card">
           <img src="./assets/Thumbnail_Project-05.png" alt="Thumbnail_Project-05">
-            <span> 
-              <h1> Refund </h1>
-              <h2> Um sistema para pedido e acompanhamento de reembolso  </h2>
-            </span>
+          <div>
+            <h3> Refund </h3>
+            <p> Um sistema para pedido e acompanhamento de reembolso </p>
+          </div>
         </div>
-     
+
 
 
         <div class="card">
           <img src="./assets/Thumbnail_Project-06.png" alt="Thumbnail_Project-06">
-          <span>
-            <h1> Página de turismo </h1>
-              <h2> Página com as principais informações para quem quer viajar para Busan </h2>
-          </span>
+          <div>
+            <h3> Página de turismo </h3>
+            <p> Página com as principais informações para quem quer viajar para Busan </p>
+          </div>
         </div>
-    
+
     </section>
     </section>
 
-    
+
     <section id="ajuda">
-      <div class="projetos flex flex-column-center"> 
+      <div class="projetos flex flex-column-center">
         <p> Meu serviços </p>
-        <h3> Como posso ajudar o seu negócio </h3> 
+        <h3> Como posso ajudar o seu negócio </h3>
       </div>
-    
 
 
-    <section id="opcoes"> 
-      <div class="borda"> 
-        <img src="./assets/icons/Devices.svg" alt="computerlogo">
+
+      <section id="opcoes">
+        <div class="borda">
+          <img src="./assets/icons/Devices.svg" alt="computerlogo">
           <h1> Websites e Aplicativos </h1>
           <span>
-          Desenvolvimento de interfaces
-        </span>
-      </div>
+            Desenvolvimento de interfaces
+          </span>
+        </div>
 
 
-      <div class="borda"> 
-        <img src="./assets/icons/HardDrives.svg" alt="computerlogo">
+        <div class="borda">
+          <img src="./assets/icons/HardDrives.svg" alt="computerlogo">
           <h1> API e banco de dados</h1>
           <span>
-          Criação de serviços do sistema 
-        </span>
+            Criação de serviços do sistema
+          </span>
 
-      </div>
+        </div>
 
 
-      <div class="borda"> 
-        <img src="./assets/icons/Infinity.svg" alt="devops logo">
+        <div class="borda">
+          <img src="./assets/icons/Infinity.svg" alt="devops logo">
           <h1> DevOps </h1>
           <span>
             Gestão e infraestrutura da aplicação
           </span>
-      </div>
-    </section>
-    </section>
+        </div>
+        </div>
+      </section>
   </main>
 
 
   <footer>
     <section id="redes-sociais">
-      <div class="contato flex flex-column-center"> 
+      <div class="contato flex flex-column-center">
         <h1> Contato </h1>
         <p> Gostou do meu trabalho? </p>
-        <h3> Entre em contato ou acompanhe as minhas redes sociais! </h3> 
+        <h3> Entre em contato ou acompanhe as minhas redes sociais! </h3>
       </div>
 
       <section id="network">
-        <div class="fundo"> 
-        <img src="./assets/icons/liii.svg" alt="linkedin">
-        <span> Linkedin </span>
-        <img src="assets/icons/ArrowUpRight.svg" alt="seta">
-      </div>
+        <div class="fundo">
+          <img src="./assets/icons/liii.svg" alt="linkedin">
+          <span> Linkedin </span>
+          <img src="assets/icons/ArrowUpRight.svg" class="setalink" alt="seta">
+        </div>
 
-      <div class="fundo"> 
-        <img src="./assets/icons/InstagramLogo.svg" alt="Instagram">
-        <span> Instagram </span>
-        <img src="assets/icons/ArrowUpRight.svg" alt="seta">
+        <div class="fundo">
+          <img src="./assets/icons/InstagramLogo.svg" alt="Instagram">
+          <span> Instagram </span>
+          <img src="assets/icons/ArrowUpRight.svg" class="setalink" alt="seta">
 
-      </div>
+        </div>
 
-      <div class="fundo"> 
-        <img src="./assets/icons/veee.svg" alt="Github">
-        <span> Github </span>
-        <img src="assets/icons/ArrowUpRight.svg" alt="seta">
-      </div>
+        <div class="fundo">
+          <img src="./assets/icons/veee.svg" alt="Github">
+          <span> Github </span>
+          <img src="assets/icons/ArrowUpRight.svg"  class="setalink" alt="seta">
+        </div>
 
-      <div class="fundo"> 
-        <img src="./assets/icons/EnvelopeSimple.svg" alt="Email">
-        <span> E-mail </span>
-        <img src="assets/icons/ArrowUpRight.svg" alt="seta">
-      </div>
-
-
+        <div class="fundo">
+          <img src="./assets/icons/EnvelopeSimple.svg" alt="Email">
+          <span> E-mail </span>
+          <img src="assets/icons/ArrowUpRight.svg" class="setalink" alt="seta">
+        </div>
 
 
 
-    </section>
 
-      
+
+      </section>
+
+
 
 
 
@@ -265,4 +271,5 @@
 
 
 </body>
+
 </html>

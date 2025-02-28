@@ -3,26 +3,14 @@
   background-size: cover;
   background-position: center;
   height: 917px;
-  /*se eu tirar os valores abaixo, porque o meu container0 sera menor do que o especificado?*/
-  padding-top: 72px; 
-  padding-inline: 120px;
-  /* nao seria o padding bottom para criar o espaco entre a grade de projetos e o inicio da secao de ajuda? */ 
-  padding-bottom: 44px; 
-
-  /*pq se eu coloco uma margem, aparece uma listra branca? */ 
-
-  /* criei tambem uma estilizacao pro id #grade-de-trabalho {
-  margin-bottom: 144px; e tb n foi */
-
+  padding-bottom: 56px;
 }
 
 
 
-
-
 .projetos {
-  margin-top: 72px;
-    p {
+  padding: 72px;
+    h2 {
       font: var(--subtitle);
       color: var(--red);}
 
@@ -32,41 +20,43 @@
 }
 
 
+#grade-de-trabalho {
+  gap: 24px; 
+  
+  /* nao usar utility por enqt */
+}
+
 
 .card {
   display: grid;
   background-color: var(--gray-300);
   position: relative;
   overflow: hidden;
-  width: 330px;
+  /* width: 330px; */
   height: 275px;
   border-radius: 12px;
-  margin-top: 56px;
+  /* margin-top: 56px; */
   
   
 
     img {
       padding-top: 12px;
       padding-inline: 12px;
-      width: 306px;
+      width: 100%;
       height: 156px;
-      border-radius: 8px;
-      position: absolute;
-      align-items: center; /*classifiquei como display grid e inseri o alignitems na esperana que fosse alinhar a foto dentro do card*/
-    } 
+      border-radius: 8px;} 
 
 
-    span {
-      margin-top: 188px;
-      position: absolute;
+    div {
       padding-inline: 12px;}
 
-    h1 {
+
+      h3 {
       font: var(--title-sm);
       color: var(--gray-600);}
     
 
-    h2 {
+      p {
       margin-top: 8px;
       font: var(--text-sm);
       color: var(--gray-500);}
