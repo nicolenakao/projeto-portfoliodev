@@ -1,0 +1,74 @@
+#redes-sociais {
+  background-image: url(../assets/Background_Contacts.png);
+  background-size: cover;
+  height: 787px;
+  
+
+}
+
+.contato {
+  padding-top: 128px;
+
+
+  h1 {
+    font: var(--subtitle);
+    color: var(--purple);
+  }
+
+  p {
+    font: var(--title-md);
+    color: var(--gray-600);
+  }
+
+  h3 {
+    font: var(--text-md);
+    color: var(--gray-500);
+  }
+
+  /* no caso para dar espaco exato de 8px entre subtitulo e tiulo, eu nao posso usar padding pq nao eh um elemnto certo? */
+
+}
+
+
+#network {
+  padding-top: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+
+  img :nth-child(2){
+    align-items: flex-end;
+  }
+
+    span{
+      font: var(--text-md);
+      color: var(--gray-500);
+      justify-content: center;
+      
+    }
+
+    /*eu tenho q aplicar o flex no filho?*/
+
+    .fundo {
+      width: 400px;
+      height: 68px; /*pq nao usar o box sizing?*/
+      background-color: var(--gray-300);
+      border-radius: 8px;
+      padding-block: 20px; /*nao moveu o texto mais pra cima pra ficar na direcao do logo*/ 
+      padding: 20px;
+      align-items: center;
+
+      .fundo:hover {
+      border: 1px solid var(--blue);
+      }
+
+    }
+
+    /*qual raciocionio pra saber se o meu padding seria inserido no fundo, ou no span?*/
+
+
+      
+  
+  
+  }

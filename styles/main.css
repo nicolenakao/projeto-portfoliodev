@@ -71,10 +71,13 @@
       font: var(--text-sm);
       color: var(--gray-500);}
 
-    }
+    
 
-
-
+      .card:hover {
+    border-color:1px solid var(--gray400);
+  }
+}
+/*nao funciona*/
 
 
 #ajuda {
