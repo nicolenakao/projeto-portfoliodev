@@ -69,14 +69,16 @@
 
 
 #intro-links {
-  display: flex;
+  margin-top: 70px;
   width: 100%;
+  display: flex;
   justify-content: center;
 
+  
  /* margin: auto;
   border: solid red;*/
   /*outra opcao*/
-    
+
     .caixa {
       display: flex;
       background-color: var(--gray-300);
@@ -86,14 +88,20 @@
       align-items: center;
       justify-content: center;
 
-       }
-
-    .seta {
-      margin-top: 99px;
-      display: flex;
-      padding-bottom: 55.5px;
-      justify-content: center;
-    }
+       }}
 
 
-}
+  .seta {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 88px;
+        margin-bottom: 52px; /*pq?*/
+        display: flex;
+        
+  }
+      
+
+      
+
+

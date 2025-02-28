@@ -3,10 +3,18 @@
   background-size: cover;
   background-position: center;
   height: 917px;
-  padding-top: 72px;
+  /*se eu tirar os valores abaixo, porque o meu container0 sera menor do que o especificado?*/
+  padding-top: 72px; 
   padding-inline: 120px;
-  padding-bottom: 144px; /*nao aparenta ter 144*/
+  /* nao seria o padding bottom para criar o espaco entre a grade de projetos e o inicio da secao de ajuda? */ 
+  padding-bottom: 44px; 
+
+  /*pq se eu coloco uma margem, aparece uma listra branca? */ 
+  
 }
+
+
+
 
 .projetos {
   margin-top: 72px;
@@ -60,6 +68,17 @@
       color: var(--gray-500);}
 
     }
+
+
+
+
+#grade-de-trabalho {
+
+  margin-bottom: 144px;
+
+
+}
+
 
 
 #ajuda {
